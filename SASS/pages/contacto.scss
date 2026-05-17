@@ -1,0 +1,27 @@
+@use "../generales/variables" as * ;
+
+
+form {
+    background-color: $color-secundario;
+    background: linear-gradient(red, transparent);
+
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+
+    border-radius: $borde-redondo;
+    border: solid;
+
+    max-width: 400px;
+    
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    input,textarea,select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

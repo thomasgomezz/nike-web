@@ -1,0 +1,41 @@
+@use "../generales/variables" as * ;
+
+#container-descuentos{      //section dentro del main
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    //dentro del section 3 div "card-desc" 
+    .card-desc {
+        border: 2px solid $color-texto;
+        width:$ancho-card;
+        margin: 1rem auto;
+        background: linear-gradient(red, transparent);
+        /*Difuminado lineal*/
+        border-radius: $borde-redondo;
+        padding: 10px;
+        transition: $transicion;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        img{
+            border-radius: 20px;
+        }
+
+        .precio-anterior{
+            text-decoration: line-through;
+            color: gray;
+            font-size: 14px;
+        }
+
+        .precio-actual{
+            font-size: 20px;
+            font-weight: 900;
+            color: wheat;
+        }
+
+    }
+
+}

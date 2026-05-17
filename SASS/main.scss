@@ -1,0 +1,15 @@
+
+    @use "./generales/variables";
+    @use "./generales/reset";
+    @use "./generales/headeryFooter";
+
+    @use "./pages/index";   //pagina de inicio
+
+    @use "./pages/contacto";    //listo
+    @use "./pages/descuentos";  //listo
+    @use "./pages/historia";    //listo
+    @use "./pages/nuevoslanzamientos"; //listo
+    @use "./pages/exclusivo"; //listo
+
+    @use "./generales/mediaQ";
+

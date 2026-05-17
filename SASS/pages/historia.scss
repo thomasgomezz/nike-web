@@ -1,0 +1,19 @@
+@use "../generales/variables" as *;
+
+#historia {
+    padding: 10px;
+
+    //parrafos 
+    p{
+        font-family: $fuente-principal;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.4;
+    /*para el espacio entre las letras*/
+    }
+
+    .video{
+        margin-top: 40px;
+    }
+}
